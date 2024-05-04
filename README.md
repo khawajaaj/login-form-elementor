@@ -1,29 +1,29 @@
-=== Login Form Elementor ===
-Contributors: khawajaaj01
-Tags: elementor, login, form, widget
-Requires at least: 5.0
-Tested up to: 6.5.2
-Requires PHP: 7.0
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-This plugin adds an Elementor widget to display a custom login form on your WordPress website.
-
-== Description ==
-
-This plugin integrates with Elementor, allowing you to easily add a custom login form to your WordPress site using Elementor's drag-and-drop interface.
-
-= Features =
-
-- Customizable login form fields (username, password, remember me)
-- Option to customize labels and placeholders for login form fields
-- Integrated with Elementor for easy setup and customization
-
-== Installation ==
-
-1. Upload the `elementor-login-form` folder to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
+=== Login Form Elementor ===<br>
+Contributors: khawajaaj01<br>
+Tags: elementor, login, form, widget<br>
+Requires at least: 5.0<br>
+Tested up to: 6.5.2<br>
+Requires PHP: 7.0<br>
+Stable tag: 1.0<br>
+License: GPLv2 or later<br>
+License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
+<br>
+This plugin adds an Elementor widget to display a custom login form on your WordPress website.<br>
+<br>
+== Description ==<br>
+<br>
+This plugin integrates with Elementor, allowing you to easily add a custom login form to your WordPress site using Elementor's drag-and-drop interface.<br>
+<br>
+= Features =<br>
+<br>
+- Customizable login form fields (username, password, remember me)<br>
+- Option to customize labels and placeholders for login form fields<br>
+- Integrated with Elementor for easy setup and customization<br>
+<br>
+== Installation ==<br>
+<br>
+1. Upload the `elementor-login-form` folder to the `/wp-content/plugins/` directory.<br>
+2. Activate the plugin through the 'Plugins' menu in WordPress.<br>
 3. Once activated, you can find the "Custom Login Form" widget in the Elementor editor.
 
 == Frequently Asked Questions ==

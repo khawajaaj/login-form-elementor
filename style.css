@@ -1,0 +1,8 @@
+/* Add custom CSS styles for the Login Form Elementor widget */
+.wp-cl-login p.remember-me {
+    display: inline-flex;
+    gap: 5px;
+}
+.wptech-login-form > p label {
+    margin-bottom: 10px;
+}

@@ -1,10 +1,10 @@
-=== Login Form Elementor ===<br>
+=== Login Form for Elementor ===<br>
 Contributors: khawajaaj01<br>
 Tags: elementor, login, form, widget<br>
 Requires at least: 5.0<br>
-Tested up to: 6.5.2<br>
+Tested up to: 6.6.1<br>
 Requires PHP: 7.0<br>
-Stable tag: 1.0<br>
+Stable tag: 1.1<br>
 License: GPLv2 or later<br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
 <br>

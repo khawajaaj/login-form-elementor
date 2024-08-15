@@ -253,7 +253,7 @@ function wptech_ajax_login()
     $info = array();
     $info['user_login'] = sanitize_text_field($_POST['username']);
     $info['user_password'] = $_POST['password'];
-    $info['remember'] = $_POST['remember'];
+    $info['remember'] = isset($_POST['remember']) ? sanitize_text_field($_POST['remember']) : '';
 
     $user_signon = wp_signon($info, false);
    if (is_wp_error($user_signon)) {
@@ -268,7 +268,7 @@ function wptech_ajax_login()
         ));
                 
     }
-    
+
     wp_die();
 }
 add_action('wp_ajax_nopriv_wptech_ajax_login', 'wptech_ajax_login');

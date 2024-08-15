@@ -251,17 +251,24 @@ function wptech_ajax_login()
     check_ajax_referer('wptech_login_nonce', 'security');
 
     $info = array();
-    $info['user_login'] = $_POST['username'];
+    $info['user_login'] = sanitize_text_field($_POST['username']);
     $info['user_password'] = $_POST['password'];
     $info['remember'] = $_POST['remember'];
 
     $user_signon = wp_signon($info, false);
-    if (is_wp_error($user_signon)) {
-        echo wp_json_encode(array('loggedin' => false, 'message' => __('Wrong username or password.')));
+   if (is_wp_error($user_signon)) {
+        echo wp_json_encode(array(
+            'loggedin' => false, 
+            'message' => __('Wrong username or password.', 'login-form-elementor')
+        ));
     } else {
-        echo wp_json_encode(array('loggedin' => true, 'message' => __('Login successful, redirecting...')));
+        echo wp_json_encode(array(
+            'loggedin' => true, 
+            'message' => __('Login successful, redirecting...', 'login-form-elementor')
+        ));
+                
     }
-
+    
     wp_die();
 }
 add_action('wp_ajax_nopriv_wptech_ajax_login', 'wptech_ajax_login');
